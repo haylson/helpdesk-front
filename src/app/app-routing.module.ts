@@ -15,7 +15,7 @@ import { ClienteUpdateComponent } from './components/cliente/cliente-update/clie
 import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
 import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
 //import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
-//import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
+import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -35,7 +35,7 @@ const routes: Routes = [
 
       { path: 'chamados',                       component:     ChamadoListComponent },
       { path: 'chamados/create',                component:   ChamadoCreateComponent },
-      //{ path: 'chamados/update/:id',            component:   ChamadoUpdateComponent },
+      { path: 'chamados/update/:id',            component:   ChamadoUpdateComponent },
       //{ path: 'chamados/read/:id',              component:     ChamadoReadComponent }
     ]
   }
